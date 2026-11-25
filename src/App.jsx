@@ -396,10 +396,8 @@ export default function App() {
           <p style={{ fontSize: '0.88rem', marginBottom: '6px' }}>
             1. Vercel proje ayarlarında aşağıdaki iki ortam değişkenini tanımla:
           </p>
-          <div className="code-block">
-            SUPABASE_URL=https://PROJE_ID.supabase.co{'
-'}
-            SUPABASE_ANON_KEY=sb_publishable_...
+          <div <pre className="code-block">{`SUPABASE_URL=https://PROJE_ID.supabase.co
+SUPABASE_ANON_KEY=sb_publishable_...`}</pre>
           </div>
           <p style={{ fontSize: '0.88rem', marginTop: '14px', marginBottom: '6px' }}>
             2. Supabase SQL Editor üzerinden <strong>supabase/schema.sql</strong> dosyasını çalıştırarak 12 tabloyu oluştur.
